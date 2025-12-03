@@ -409,10 +409,10 @@ def manage_db(country, filename):
 
     content = f"""
     <div class="row g-3 mb-4">
-        <div class="col-md-3"><div class="stat-card"><div class="stat-label">Total Records</div><div class="stat-value">{stats['total']}</div></div></div>
-        <div class="col-md-3"><div class="stat-card"><div class="stat-label text-primary">Pending</div><div class="stat-value text-primary">{stats['pending']}</div></div></div>
-        <div class="col-md-3"><div class="stat-card"><div class="stat-label text-success">Success</div><div class="stat-value text-success">{stats['success']}</div></div></div>
-        <div class="col-md-3"><div class="stat-card"><div class="stat-label text-danger">Failed</div><div class="stat-value text-danger">{stats['failed']}</div></div></div>
+        <div class="col-md-3"><div class="stat-card"><div class="stat-label">Total Records</div><div class="stat-val">{stats['total']}</div></div></div>
+        <div class="col-md-3"><div class="stat-card"><div class="stat-label text-primary">Pending</div><div class="stat-val text-primary">{stats['pending']}</div></div></div>
+        <div class="col-md-3"><div class="stat-card"><div class="stat-label text-success">Success</div><div class="stat-val text-success">{stats['success']}</div></div></div>
+        <div class="col-md-3"><div class="stat-card"><div class="stat-label text-danger">Failed</div><div class="stat-val text-danger">{stats['failed']}</div></div></div>
     </div>
     
     <div class="card p-3 mb-4 border-0 shadow-sm" style="background: #f8fafc;">
